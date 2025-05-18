@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 80;
 
 // ここは使わない（EC2では getLocalIP() は不適）
 const host = '0.0.0.0';
